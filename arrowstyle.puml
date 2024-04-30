@@ -1,0 +1,14 @@
+@startuml
+Bob ->x Alice : add a final x to denote a lost message
+Bob -> Alice : use \ or / instead of < or > to have only the bottom or top part of the arrow
+Bob ->> Alice : repeat the arrow head (for example, >> or //) head to have a thin drawing
+Bob -\ Alice : use -- instead of - to have a dotted arrow
+Bob \\- Alice
+Bob //-- Alice
+
+Bob ->o Alice : add a final "o" at arrow head
+Bob o\\-- Alice
+
+Bob <-> Alice : use bidirectional arrow <->
+Bob <->o Alice
+@enduml
